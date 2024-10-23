@@ -1,2 +1,4 @@
 flask
 gunicorn
+pytesseract==0.3.9
+Pillow==9.1.0
