@@ -8,7 +8,7 @@ import re
 app = Flask(__name__)
 
 # Set up the path to Tesseract-OCR
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract' 
 
 # Upload folder configuration
 UPLOAD_FOLDER = 'uploads'
